@@ -1,1 +1,0 @@
-{"version":"1.0.0-beta.1","commands":{"list":{"id":"list","description":"List all user","pluginName":"oclif-prepack-script","pluginType":"core","aliases":[],"flags":{"properties":{"name":"properties","type":"option","description":"The User List.","default":"name, country, department"}},"args":[]}}}

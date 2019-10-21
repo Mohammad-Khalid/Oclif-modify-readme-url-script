@@ -36,5 +36,5 @@ OPTIONS
   --properties=properties  [default: name, country, department] The User List.
 ```
 
-_See code: [src/commands/list.js](https://github.com/Mohammad-Khalid/Oclif-modify-readme-url-script/blob/v1.0.0-beta.1/src/commands/list.js)_
+_See code: [src/commands/list.js](https://github.com/Mohammad-Khalid/Oclif-modify-readme-url-script/blob/v1.0.0-beta.2/src/commands/list.js)_
 <!-- commandsstop -->
