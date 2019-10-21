@@ -1,18 +1,18 @@
-const {flags} = require('@oclif/command'),
+const {flags, Command} = require('@oclif/command'),
       ora = require('ora');
       
-class ListUsers extends TwilioClientCommand {
+class ListUsers extends Command{
   
-    async runCommand() {
+    async run() {
       const spinner = ora().start('Getting users...\n');
       try{
         
         const fullData = require('../config/data.json');
         spinner.stop();
-        this.output(fullData, this.flags.properties);
+        console.log(fullData);
       }catch(err){
 
-        spinner.stop()
+        spinner.stop();
         
         console.error(`ERROR: ${err}`)
       }

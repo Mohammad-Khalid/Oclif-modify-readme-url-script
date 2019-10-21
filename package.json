@@ -8,6 +8,7 @@
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.13.3",
     "@oclif/plugin-help": "^2.2.1",
+    "@twilio/cli-core": "^4.2.1",
     "ora": "^3.4.0"
   },
   "devDependencies": {
@@ -33,9 +34,9 @@
   "homepage": "https://github.com/Mohammad-Khalid/Oclif-modify-readme-url-script",
   "license": "MIT",
   "oclif": {
-    "name": "autopilot",
+    "name": "oclif-script",
     "commands": "./src/commands",
-    "bin": "twilio",
+    "bin": "oclif-script",
     "plugins": [
       "@oclif/plugin-help"
     ],
